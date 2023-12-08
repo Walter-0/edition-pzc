@@ -54,7 +54,8 @@
                 "type": "select",
                 "options": [
                     "Modern sans-serif",
-                    "Elegant serif"
+                    "Elegant serif",
+                    "League Spartan"
                 ],
                 "default": "Modern sans-serif"
             },
@@ -62,7 +63,8 @@
                 "type": "select",
                 "options": [
                     "Modern sans-serif",
-                    "Elegant serif"
+                    "Elegant serif",
+                    "League Spartan"
                 ],
                 "default": "Modern sans-serif"
             },
