@@ -1,18 +1,23 @@
 .site {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 .site-content {
-    flex-grow: 1;
-    padding: 6vmin 0;
+  flex-grow: 1;
+  padding: 6vmin 0;
+  background-color: #10040d;
 }
 
 .is-head-brand .site-content {
-    padding-top: max(8vmin, 5rem);
+  padding-top: max(8vmin, 5rem);
 }
 
 .page-template .site-content {
-    padding-block: 0;
+  padding-block: 0;
+}
+
+.gh-foot {
+  background-color: #10040d;
 }
