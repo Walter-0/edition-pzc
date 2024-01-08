@@ -7,17 +7,29 @@
   font-weight: 800;
 }
 
-.gh-head-logo img {
-  max-height: 100px;
-}
-
 .gh-head-menu,
 .gh-head-actions {
   font-size: 1.5rem;
   font-weight: 700;
 }
 
+@media (max-width: 767px) {
+  #gh-head {
+    height: 150px;
+  }
+  .gh-head-logo img {
+    max-height: 150px;
+  }
+}
+
 @media (min-width: 992px) {
+  .gh-head {
+    height: 200px;
+  }
+
+  .gh-head-logo img {
+    max-height: 200px;
+  }
   .is-head-left-logo .gh-head-menu {
     justify-content: center;
     margin: 0;
