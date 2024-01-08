@@ -13,6 +13,10 @@
   font-weight: 700;
 }
 
+ul.nav > li > a {
+  text-transform: uppercase;
+}
+
 @media (max-width: 767px) {
   #gh-head {
     height: 150px;
@@ -33,9 +37,5 @@
   .is-head-left-logo .gh-head-menu {
     justify-content: center;
     margin: 0;
-  }
-
-  li.nav-about {
-    font-size: 3.2rem;
   }
 }
